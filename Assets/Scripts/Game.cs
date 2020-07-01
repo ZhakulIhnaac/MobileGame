@@ -6,7 +6,7 @@ public class Game : MonoBehaviour
     public GameObject secondDiamond;
     [SerializeField] Diamond diamond;
 
-    private void InstantiateDiamond()
+    public void InstantiateDiamond()
     {
         var diamondColor = diamond.GetComponent<SpriteRenderer>();
 
